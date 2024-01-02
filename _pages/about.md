@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "About me"
-excerpt: "About me"
+excerpt: "Han Shen's Homepage"
 author_profile: true
 redirect_from: 
   - /about/
@@ -9,83 +9,36 @@ redirect_from:
 ---
 
 
-My name is Yu-Sheng Su. I am currently a Research Fellow hosted by [Eric Xing](http://www.cs.cmu.edu/~epxing/) from [CMU](https://www.cmu.edu/)/[MBZUAI](https://mbzuai.ac.ae/) and work on large-scale pre-trained language models (LLMs) now. I completed my Ph.D. from the [Department of Computer Science and Technology](http://www.cs.tsinghua.edu.cn/) at [Tsinghua University](https://www.tsinghua.edu.cn/publish/thu2018en/index.html). Throughout my Ph.D. journey from 2019 to 2023, I had the privilege of joining [THUNLP Lab](https://github.com/thunlp) and being advised by [Zhiyuan Liu](https://scholar.google.com/citations?user=dT0v5u0AAAAJ&hl=zh-TW) and [Maosong Sun](https://www.cs.tsinghua.edu.cn/csen/info/1180/4033.htm). Besides, I work closely with a start-up company, [ModelBest](https://github.com/OpenBMB). For further details on my academic research and experience, please refer to my [[Google Schlar](https://scholar.google.com/citations?user=xwy6Va4AAAAJ&hl=en)].
+My name is Han Shen. I am currently a Ph.D. student advised by Porf. [Tianyi Chen](https://chentianyi1991.github.io/) at [RPI](https://www.rpi.edu/). Before I start the Ph.D. program, my knowledge foundation is built around general deep learning and optimization. I was fortunate to join Prof. Tianyi Chen's group as the first Ph.D. student and grow with the research group till today. My research generally focuses on bilevel learning, nonconvex optimization and reinforcement learning.
+
+I'm actively looking for industrial research internships. Email me for an updated CV.
 
 
 ## Research
-<!--
-I have 4-year experiences in LLMs. My research spans the areas of natural language processing and machine learning. My long-term goal of research is to build a general-purpose machine learning system that can <b>sufficiently learn</b> human-like cognitive capacities (e.g., understanding , reasoning, reflecting, etc.), <b>efficiently adapt</b> to various tasks, and remain <b>interactable and reliable</b> when deployed in real applications. Toward this goal, my previous works spans across:
--->
+
+
+My research spans the areas of optimization and machine learning, covering the following topics:
+
+* <b> Bilevel optimization </b> Bilevel learning is a general learning framework covering a wide range of topics--adversarial learning, hyper-parameter optimization, meta learning, etc. Our research focuses on the the theory foundation and algorithm design for bilevel training. We aim to advance and improve over the current single-level training paradigm with bilevel training framework.
+
+* <b> Reinforcement learning </b> Solving reinforcement learning problems with both online or offline policy optimization algorithms, along with recent focus on AI alginment with reinforcement learning from human feedback.
+
+Designing efficient and principled algorithms have been my pursuit throughout my research years. At the present stage, I am exploring enhancing language model alignment with bilevel training framework.
+
+<!--Recently, I focus more on-->
 
 <!--
-* <b>General-purpose Model. (Model Pre-training)</b> Building pre-trained models that possess the more powerful perceptual abilities and cognitive abilities, such as understanding, reasoning, generation abilities etc ([CPM](https://www.sciencedirect.com/science/article/pii/S266665102100019X), [Knowledge Inheritance](https://aclanthology.org/2022.naacl-main.288/)). <small>Besides, I'm also insterested in [scaling science](https://github.com/yushengsu-thu/Scaling-Science) in foundation models. </small>
--->
-
-My research spans the areas of natural language processing and machine learning, specifically focusing on <b>large language models (LLMs)</b>. I am particularly interested in how to better pre-train, fine-tune/instruction-tune, evaluate LLMs, and advance them in real-world scenarios. Thus, my research broadly covers the following topics:
-<!--
-My goal is to advance LLMs into the next-generation AI system capable of autonomously accomplishing long-horizon tasks according to users' desires. Thus, I am broadly interested in the following topics:
--->
-<!-- 
-To achieve this goal, LLMs should be *comprehend instructions and efficiently adapt to downstream tasks*, *interact with the external world to devise optimal strategies*, and *reliably execute strategies and accomplish goals autonomously in alignment with human intentions*.
---->
-
-* <b> Retrieval Augmented LLM </b> Equip LLMs with the capability to leverage external retrieval information, thereby enhancing their understanding and increasing their trustworthiness. ([CokeBERT](https://arxiv.org/abs/2009.13964), [CSS-LM](https://arxiv.org/abs/2102.03752))
-
-* <b>(Fine-tune/Instruction-tune) Computational Efficiency Tuning </b> Develop theories, tools, and algorithms to tune LLMs, enabling them to better understand human's instruction and efficiently adapt to downstream tasks in a computation-friendly manner. (e.g., parameter-efficient tuning methods, instruction tuning). ([Prompt Transferability](https://aclanthology.org/2022.naacl-main.290/), [IPT](https://arxiv.org/abs/2110.07867), [Parameter-efficient Fine-tuning Survey](https://arxiv.org/abs/2203.06904), [APET](https://openreview.net/forum?id=3CIQIYNGlp)).
-
-<!--Recently, I more focus on <b>interactable and reliable</b> part:-->
-
-Recently, I am more focus on:
-
-* <b>Interactive and Multiple Agent.</b> Developing agents (based on LLMs) that can autonomously interact with the external environment (or humans) to self-improve and drive long-horizon decision-making, thereby accomplishing more complex tasks in the real world ([AgentVerse](https://arxiv.org/abs/2308.10848), [XAgent](https://blog.x-agent.net/about/), [Tool Leaning](https://arxiv.org/abs/2304.08354), [ChatDev](https://arxiv.org/abs/2307.07924)) <small> Note that: At the present stage, I explore how to make multiple autonomous agents collaborate more efficiently and explore their [emergent human-like social behaviors](https://arxiv.org/abs/2308.10848). </small>
-
-* <b>AI Alignment - scalable oversight.</b> Aligning AI models to act in accordance with human values is challenging: these values are taught by humans who make mistakes, harbor biases, and have a complex that is hard to completely specify. AI models often learn to exploit even minor imperfections in the specified objective, a tendency known as reward hacking. To achieve the alignment goal, a core open problem is a scalable oversight. Thus, I study how to explain, understand, and evaluate ways to better control how AI models extend  our supervision over tasks that are beyond our direct oversight, thereby improving alignment and their ability to generalize. ([Model Emotion](https://arxiv.org/abs/2302.09582), [Chateval](https://arxiv.org/abs/2308.07201)) 
-
-
-
-<!--and train/guide another AI system that smarter than human.-->
-
-  <!--
-  <small> Note that: At the present stage, I am exploring how to fine-tune a large language model (LLM) that can autonomously (without human-provided prompts) initiate chain-of-thought and self-reflection processes, akin to human-like machines, in order to perform long-horizon reasoning and achieve better generalization. </small>
-  -->
-
-
-
-<!--You can find my CV [here](/cv/).-->
-
 ## On The Job Market
-I'm on the job market, looking for academic and industrial research positions related to LLMs. [[Google Schlar](https://scholar.google.com/citations?user=xwy6Va4AAAAJ&hl=en)] 
-<!-- [[CV]](https://www.dropbox.com/s/4j059nncu2k6lrf/Yusheng_Su_Resume_2023_05_15.pdf?dl=0) -->
-<!-- (in North America) -->
-
-<!-- ## Coming Soon
-Will share our work: [On Transferability of Prompt Tuning for Natural Language Processing](https://arxiv.org/abs/2111.06719)<br>
-<b>Conference</b>: NAACL 2022, Seattle, Washington <br>
-<b>Session</b>: Efficient Methods in NLP <br>
-<b>Time</b>: July 10, 2022, 10:45 – 12:15 (UTC - 7:00) <br>
-</font> -->
+I'm actively looking for industrial research internships. Email me for an updated CV. -->
 
 
 ## News
-<!-- 
-* [Mar. 2022] Got one paper accepted at ACL 2022. 
-* [Aug. 2021] Got one paper accepted at IEEE/TASLP 2021. 
-* [Feb. 2021] Got one paper accepted at WWW 2021. 
-* [Aug. 2020] Got one paper accepted at EMNLP 2020. 
-</font> -->
-
-* [Jan. 2024] Invited Research Talk at [Alibaba DAMO Academy](https://www.alibabagroup.com/en-US/about-alibaba-businesses-1496657217451982848]) hosted by [Ting-En Lin](https://tnlin.github.io/). Topic: The Challenges and Future of LLM-Based Autonomous Agents.
-* [Dec. 2023] I will attend EMNLP (Singapore) and NeurIPS (New Orleans, U.S.A) conference.
-* [Oct. 2023] Thrilled to announce that [Exploring the Impact of Model Scaling on Parameter-efficient Tuning Methods](https://openreview.net/forum?id=3CIQIYNGlp) was accepted by EMNLP 2023 as the main conference paper.
-* [Oct. 2023] Thrilled to announce that we propose a next-generation AI agent, [X Agent](https://blog.x-agent.net/about/), that can accomplish more challenging tasks in real-world.
-* [Aug. 2023] I got my Ph.D.! Thanks to all those who trust me and support me.
-* [Jul. 2023] Invited Research Talk at [CMU](https://www.cmu.edu/)/[MBZUAI](https://mbzuai.ac.ae/) hosted by [Eric P. Xing](http://www.cs.cmu.edu/~epxing/). Topic: Efficient Adaptation of Large-scale Pre-trained Language Models [[slide](https://drive.google.com/file/d/1ow2Q-YUOk-Hyvou3VAH88yvGlQzS7SFN/view?usp=sharing)].
-* [May. 2023] [AgentVerse](https://github.com/OpenBMB/AgentVerse) was published. It provides a flexible framework that simplifies the process of building LLM-based agents to accomplish various tasks in real world.
-* [Apr. 2023] [Tool Learning](https://arxiv.org/pdf/2304.08354.pdf) survey was published. It demonstrates how recently proposed LLMs leverage the emerging ability to comprehend, create, and manipulate tools, thereby assisting humans in accomplishing their intended objectives.
-* [Jan. 2023] [Parameter-efficient Fine-tuning of Large-scale Pre-trained Language Models](https://www.nature.com/articles/s42256-023-00626-4) was accepted by [Natural Machine Intelligence](https://www.nature.com/natmachintell/) (Cover Article).
-* [Sep. 2022] Advancement of Foundation Models. Invited Talk (on-line) @ [SAP - AI Research](https://www.sap.com/products/artificial-intelligence.html), Headquarters, Germany.
-* [Jul. 2022] Will orally present our 2 accepted works at [NAACL 2022](https://2022.naacl.org/).
-* [Apr. 2022] [Transferability of Prompt Tuning](https://aclanthology.org/2022.naacl-main.290/) and [Knowledge Inheritance](https://aclanthology.org/2022.naacl-main.288/) are accepted to [NAACL 2022](https://2022.naacl.org/).
+* [Jan. 2024] Two paper will appear in ICASSP 2024: "Joint Unsupervised and Supervised Training for Automatic Speech Recognition via Bilevel Optimization" and "A Method For Bilevel Optimization With Convex Lower-level Problem".
+* [Apr. 2023] Our paper is accepted to ICML 2023 [On Penalty-based Bilevel Gradient Descent Method](https://arxiv.org/abs/2302.05185) [[code](https://github.com/hanshen95/penalized-bilevel-gradient-descent)] where we study the inexact penalization for bilevel optimization problem and propose an efficient first-order algorithm.
+* [Apr. 2023] Our paper is accepted to IEEE Transactions on Signal Processing (TSP) [Towards Understanding Asynchronous Advantage Actor-critic: Convergence and Linear Speedup](https://arxiv.org/abs/2012.15511).
+* [Jan. 2023] Two paper are accepted to AISTATS 2023! First paper on bilevel optimization under constraints [Alternating Implicit Projected SGD and Its Efficient Variants for Equality-constrained Bilevel Optimization](https://arxiv.org/abs/2211.07096) and second paper on an offline actor-critic algorithm [Distributed Offline Policy Optimization Over Logged Data](https://hanshen95.github.io/).
+* [Jan. 2023] Our paper is selected as oral (top 5%) in ICLR 2023 [Mitigating Gradient Bias in Multi-objective Learning: A Provably Convergent Stochastic Approach](https://arxiv.org/abs/2210.12624) where we propose a de-biased multi-objective optimization algorithm.
+* [Oct. 2022] Our paper is accepted to NeurIPS 2022 (oral) [A Single-timescale Analysis for Stochastic Approximation with Multiple Coupled Sequences](https://arxiv.org/abs/2206.10414) which provides a general complexity analysis for algorithms with multiple sequences.
 
 <!-- <font color="gray"> </font> -->
 
@@ -94,70 +47,53 @@ Will share our work: [On Transferability of Prompt Tuning for Natural Language P
 
 ## Publications
 
-* <b>Exploring the Impact of Model Scaling on Parameter-efficient Tuning Methods</b>\
-*<b>Yusheng Su</b>, Chi-Min Chan, Jiali Cheng, Yujia Qin, Yankai Lin, Shengding Hu, Zonghan Yang, Ning Ding, Xingzhi Sun, Guotong Xie, Zhiyuan Liu, Maosong Sun*\
-EMNLP 2023. [[pdf](https://openreview.net/forum?id=3CIQIYNGlp)] [[code](https://github.com/yushengsu-thu/PET_Scaling)]
+* <b>Joint Unsupervised and Supervised Training for Automatic Speech Recognition via Bilevel Optimization</b>\
+*A.F.M. Saif, Xiaodong Cui, <b>Han Shen</b>, Songtao Lu, Brian Kingsbury, Tianyi Chen*\
+to appear in ICASSP 2024.
 
-* <b>Parameter-efficient Fine-tuning of Large-scale Pre-trained Language Models</b>\
-*Ning Ding, Yujia Qin, Guang Yang, Fuchao Wei, Zonghan Yang, <b>Yusheng Su</b>, Shengding Hu, Yulin Chen, Chi-Min Chan, Weize Chen, Jing Yi, Weilin Zhao, Xiaozhi Wang, Zhiyuan Liu, Hai-Tao Zheng, Jianfei Chen, Yang Liu, Jie Tang, Juanzi Li, Maosong Sun.*\
-Nature Machine Intelligence 2023 (<b>Cover Article</b>). [[pdf](https://www.nature.com/articles/s42256-023-00626-4)] [[code](https://github.com/thunlp/OpenDelta)]
+* <b>A Method For Bilevel Optimization With Convex Lower-level Problem</b>\
+*<b>Han Shen</b>, Santiago Paternain, Gaowen Liu, Ramana Kompella, Tianyi Chen*\
+to appear in ICASSP 2024.
 
-* <b>On Transferability of Prompt Tuning for Natural Language Processing</b>\
-*<b>Yusheng Su</b>, Xiaozhi Wang, Yujia Qin, Chi-Min Chan, Yankai Lin, Zhiyuan Liu, Peng Li, Juanzi Li, Lei Hou, Maosong Sun, Jie Zhou*\
-NAACL 2022 (<b>Oral</b>). [[pdf]](https://aclanthology.org/2022.naacl-main.290/) [[code]](https://github.com/thunlp/Prompt-Transferability) [[BibTex](https://aclanthology.org/2022.naacl-main.290.bib)] [[slide](https://drive.google.com/file/d/1OSmU3s7DOv-Gux5JcjuY0w79MzRRJuiA/view?usp=sharing)] [[video](https://www.youtube.com/watch?v=KVgmtgMQ3ig)]
+* <b>On Penalty-based Bilevel Gradient Descent Method</b>\
+*<b>Han Shen</b>, Quan Xiao, Tianyi Chen*\
+ICML 2023. [[arxiv](https://arxiv.org/abs/2302.05185)] [[code](https://github.com/hanshen95/penalized-bilevel-gradient-descent)]
 
-* <b>Knowledge Inheritance for Pre-trained Language Models</b>\
-*Yujia Qin, Yankai Lin, Jing Yi, Jiajie Zhang, Xu Han, Zhengyan Zhang, <b>Yusheng Su</b>, Zhiyuan Liu, Peng Li, Maosong Sun, Jie Zhou*\
-NAACL 2022 (<b>Oral</b>). [[pdf](https://aclanthology.org/2022.naacl-main.288/)] [[code](https://github.com/thunlp/Knowledge-Inheritance)]
+* <b>Towards Understanding Asynchronous Advantage Actor-critic: Convergence and Linear Speedup</b>\
+*<b>Han Shen</b>, Kaiqing Zhang, Mingyi Hong, Tianyi Chen*\
+IEEE Transactions on Signal Processing. [[arxiv](https://arxiv.org/abs/2012.15511)]
 
-* <b>Exploring Low-dimensional Intrinsic Task Subspace via Prompt Tuning</b>\
-*Yujia Qin, Xiaozhi Wang, <b>Yusheng Su</b>, Yankai Lin, Ning Ding, Zhiyuan Liu, Juanzi Li, Lei Hou, Peng Li, Maosong Sun, Jie Zhou*\
-ACL 2022 Findings. [[pdf](https://arxiv.org/abs/2110.07867)] [[code](https://github.com/thunlp/Intrinsic-Prompt-Tuning)]
+* <b>Alternating projected SGD for equality-constrained bilevel optimization</b>\
+*Quan Xiao, <b>Han Shen</b>, Wotao Yin, Tianyi Chen*\
+AISTATS 2023. [[arxiv](https://arxiv.org/abs/2211.07096)]
 
-* <b>CPM: A large-scale Generative Chinese Pre-trained Language Model</b>\
-*Zhengyan Zhang, Xu Han, Hao Zhou, Pei Ke, Yuxian Gu, Deming Ye, Yujia Qin, <b>Yusheng Su</b>, Haozhe Ji, Jian Guan, Fanchao Qi, Xiaozhi Wang, Yanan Zheng, Guoyang Zeng, Huanqi Cao, Shengqi Chen, Daixuan Li, Zhenbo Sun, Zhiyuan Liu, Minlie Huang, Wentao Han, Jie Tang, Juanzi Li, Xiaoyan Zhu, Maosong Sun*\
-AI OPEN 2021. [[pdf](https://www.sciencedirect.com/science/article/pii/S266665102100019X)] [[code](https://github.com/TsinghuaAI/CPM)]
+* <b>A Single-timescale Analysis for Stochastic Approximation with Multiple Coupled Sequences</b>\
+*<b>Han Shen</b>, Tianyi Chen*\
+NeurIPS 2022 (oral). [[arxiv](https://arxiv.org/abs/2206.10414)]
 
-* <b>CSS-LM: A Contrastive Framework for Semi-supervised Fine-tuning of Pre-trained Language Models</b>\
-*<b>Yusheng Su</b>, Xu Han, Yankai Lin, Zhengyan Zhang, Zhiyuan Liu, Peng Li, Maosong Sun*\
-[WWW 2021 Workshop](https://www.aminer.cn/ssl_www2021), IEEE/TASLP 2021. [[pdf](https://arxiv.org/abs/2102.03752)] [[code](https://github.com/thunlp/CSS-LM)] [[slide](https://drive.google.com/file/d/1TqAnFYL5CBwWhrDamB83akqQniVd2B9o/view?usp=sharing)]
+* <b>Distributed Offline Policy Optimization Over Batch Data</b>\
+*<b>Han Shen</b>, Songtao Lu, Xiaodong Cui, Tianyi Chen*\
+AISTATS 2022. [[html](https://proceedings.mlr.press/v206/shen23b.html)]
 
-* <b>CokeBERT: Contextual Knowledge Selection and Embedding Towards Enhanced Pre-Trained Language Models</b>\
-*<b>Yusheng Su</b>, Xu Han, Zhengyan Zhang, Peng Li, Zhiyuan Liu, Yankai Lin, Jie Zhou, Maosong Sun*\
-EMNLP 2020 Findings, AI OPEN 2021. [[pdf](https://arxiv.org/abs/2009.13964)] [[pdf](https://www.sciencedirect.com/science/article/pii/S2666651021000188)] [[code](https://github.com/thunlp/CokeBERT)]
+* <b>Mitigating Gradient Bias in Multi-objective Learning: A Provably Convergent Approach</b>\
+*Heshan D. Fernando, <b>Han Shen</b>, Miao Liu, Subhajit Chaudhury, Keerthiram Murugesan, Tianyi Chen*\
+ICLR 2022. [[arxiv](https://arxiv.org/abs/2210.12624)]
 
+* <b>Adaptive Temporal Difference Learning with Linear Function Approximation</b>\
+*Tao Sun, <b>Han Shen</b>, Tianyi Chen, Dongsheng Li*\
+ IEEE Transactions on Pattern Analysis and Machine Intelligence. [[arxiv](https://arxiv.org/abs/2002.08537)]
 
-
-## Under Review or Preprint Version <!-- Submitted for Publications-->
-
-* <b>Human Emotion Knowledge Representation Emerges in Large Language Models and Supports Discrete Emotion Inference</b>\
-*<b>Yusheng Su</b><sup><big>*</big></sup>, Ming Li<sup><big>*</big></sup>, Hsiu-Yuan Huang, Jiali Cheng, Xin Hu, Xinmiao Zhang, Huadong Wang, Yujia Qin, Xiaozhi Wang, Zhiyuan Liu, Dan Zhang* (&nbsp;<sup><big>*</big></sup> indicates equal contribution)\
-(Submitted to Nature Human Behaviour 2023). [[pdf](https://arxiv.org/abs/2302.09582)] [[code](https://github.com/thunlp/OpenNeuron)] <small>(Refactoring - User friendly toolkit coming soon)</small>
-
-* <b>Tool Learning with Foundation Models</b>\
-*Yujia Qin, Shengding Hu, Yankai Lin, Weize Chen, Ning Ding, Ganqu Cui, Zheni Zeng, Yufei Huang, Chaojun Xiao, Chi Han, Yi Ren Fung, <b>Yusheng Su</b>, Huadong Wang, Cheng Qian, Runchu Tian, Kunlun Zhu, Shihao Liang, Xingyu Shen, Bokai Xu, Zhen Zhang, Yining Ye, Bowen Li, Ziwei Tang, Jing Yi, Yuzhang Zhu, Zhenning Dai, Lan Yan, Xin Cong, Yaxi Lu, Weilin Zhao, Yuxiang Huang, Junxi Yan, Xu Han, Xian Sun, Dahai Li, Jason Phang, Cheng Yang, Tongshuang Wu, Heng Ji, Zhiyuan Liu, Maosong Sun*\
-ArXiv 2023. [[pdf](https://arxiv.org/abs/2304.08354)] [[code](https://github.com/OpenBMB/BMTools)] 
-
-* <b>AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors in Agents</b>\
-*<b>Yusheng Su</b><sup><big>*</big></sup>, Weize Chen<sup><big>*</big></sup>, Jingwei Zuo, Cheng Yang, Chenfei Yuan, Chen Qian, Chi-Min Chan, Yujia Qin, Yaxi Lu, Ruobing Xie, Zhiyuan Liu, Maosong Sun, Jie Zhou* (&nbsp;<sup><big>*</big></sup> indicates equal contribution)\
-ArXiv 2023. [[pdf](https://arxiv.org/abs/2308.10848)] [[code](https://github.com/openbmb/agentverse)]
-
-* <b>Communicative agents for software development</b>\
-*Chen Qian, Xin Cong, Cheng Yang, Weize Chen, <b>Yusheng Su</b>, Juyuan Xu, Zhiyuan Liu, Maosong Sun*\
-ArXiv 2023. [[pdf](https://arxiv.org/abs/2307.07924)] [[code](https://github.com/openbmb/chatdev)]
-
-* <b>ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate</b>\
-*Chi-Min Chan, Weize Chen, <b>Yusheng Su</b>, Jianxuan Yu, Wei Xue, Shanghang Zhang, Jie Fu, Zhiyuan Liu*\
-ArXiv 2023. [[pdf](https://arxiv.org/abs/2308.07201)] [[code](https://github.com/thunlp/ChatEval)]
+* <b>Byzantine-resilient Decentralized Policy Evaluation with Linear Function Approximation</b>\
+*Zhaoxian Wu, <b>Han Shen</b>, Tianyi Chen, Qing Ling*\
+IEEE Transactions on Signal Processing. [[arxiv](https://arxiv.org/abs/2009.11146)]
 
 
 <!--
-* <b>Removing Backdoors in Pre-trained Models by Regularized Continual Pre-training</b>\
-*Biru Zhu, Ganqu Cui, Yangyi Chen, Yujia Qin, <b>Yusheng Su</b>, Lifan Yuan, Chong Fu, Yangdong Deng, Zhiyuan Liu, Maosong Sun, Ming Gu.*\
-(Submitted to TACL). [[pdf]](https://www.dropbox.com/s/0yuudhokyyomkup/Removing_Backdoors_in_Pre-trained_Models_by_Regularized_Continual_Pretraining.pdf?dl=0) 
+## Under Review or Preprint Version <!-- Submitted for Publications
 -->
 
 
+<!--
 ## Efficient Training Projects
 
 * (Leader/Co-leader) <b>Prompt Transferability</b>. This system assists users in building a prompt bank, allowing them to save well-trained prompts. It also enables swift access and reuse of these prompts whenever the user requires them on unseen tasks and heterogeneous models.
@@ -185,51 +121,33 @@ ArXiv 2023. [[pdf](https://arxiv.org/abs/2308.07201)] [[code](https://github.com
 * (Member) <b>Tool Learning</b>. Tool learning for LLMs, open-source solutions of ChatGPT-Plugins.
   
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=OpenBMB&repo=BMTools)](https://github.com/OpenBMB/BMTools)
-
+-->
 
 <!--
 ## Teaching
-* [Jul. 2022] Tsinghu University - NLP Big Model Course (Summer) [link](https://www.bilibili.com/video/BV1UG411p7zv?p=1&unique_k=OwC3PgP)
+* [Jul. 2022] 
 -->
 
-## Talks
-* [Jul. 2023] Invited Research Talk at [CMU](https://www.cmu.edu/)/[MBZUAI](https://mbzuai.ac.ae/) hosted by [Eric P. Xing](http://www.cs.cmu.edu/~epxing/). Topic: Efficient Adaptation of Large-scale Pre-trained Language Models [[slide](https://drive.google.com/file/d/1ow2Q-YUOk-Hyvou3VAH88yvGlQzS7SFN/view?usp=sharing)].
-* [Sep. 2022] Invited Talk (on-line) @ [SAP - AI Research](https://www.sap.com/products/artificial-intelligence.html), Headquarter, Germany
-* [Jul. 2022] Oral Talk @ NAACL 2022, [[slide](https://drive.google.com/file/d/1OSmU3s7DOv-Gux5JcjuY0w79MzRRJuiA/view?usp=sharing)] [[video](https://www.youtube.com/watch?v=KVgmtgMQ3ig)]
-* [Apr. 2021] Spotlight Talks (on-line) @ WWW 2021 (Self-Supervised Learning Workshop)
 
 
 
-## Professional Services
-<!--
-* Reviewer: COLING 2022
-* Review Committee Member: EMNLP 2022
-* Reviewer: ICML 2022
-* Reviewer: ACL Rolling 2022
-* Reviewer: ACL Rolling 2021
-* Reviewer: EMNLP/ACL/IEEE-TASLP 2021
--->
-Reviewer (Since 2021): ACL, NAACL, AACL, ACL Roling, EMNLP, COLING, ICLR, ICML, IJCAI
+## Services
+Reviewer for
+* Advances in Neural Information Processing Systems (NeurIPS) 2022 & 2023
+* International Conference on Machine Learning (ICML) 2023 & 2024
+* International Conference on Learning Representation (ICLR) 2022
+* International Conference on Artificial Intelligence and Statistic (AISTATS) 2023 (top
+reviewer)
+* IEEE Transactions on Signal Processing (TSP)
+
 
 
 
 ## Internships
-<!--
-### Tsinghua NLP Lab. (Beijing) 09.2019 - 07.2023
-* Ph.D. Student 
-* Advised by [Prof. Zhiyuan Liu](http://nlp.csai.tsinghua.edu.cn/~lzy/).
-</font> -->
 
-### MediaTek. (Taiwan) 07.2018 - 08.2019
-* Deep/Machine Learning Engineer Intern
-* Advised by Jing-Han Wang.
+### IBM Research. (US) 05.2021 - 08.2021
+* Research intern
+* Mentored by [Dr. Songtao Lu](https://sites.google.com/site/lusongtaoee) and [Dr. Xiaodong Cui](https://research.ibm.com/people/xiaodong-cui).
 
-### Microsoft. (Taiwan) 07.2015 - 07.2016
-* Research and Development Intern
-* Advised by [Kuang-Chao Yeh](https://www.linkedin.com/in/kuang-chao-yeh/) and [Gordon Chang](https://www.linkedin.com/in/gordonwinnow).
 
-## Pre-doctoral Student Mentoring
-* (Since 2021-2023) [Chi-Min Chan](https://scholar.google.com/citations?user=5U4P54wAAAAJ&oi=ao): Tsinghua University (BS) -> Hong Kong University of Science and Technology (HKUST) (MS) 
-* (Since 2022-2023) Jiali Cheng: University of North Carolina (MS->PhD)  
-* (Since 2022-2023) Yu Xia: Peking University (MS) -> Tsinghua University (PhD)  
-* (Since 2022-2023) Xiuyuan Huang: University of Science and Technology Beijing (BS) -> Peking University (MS) 
+
