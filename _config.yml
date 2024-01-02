@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Yusheng Su"
+title                    : "Han Shen"
 title_separator          : "-"
-name                     : &name "Yusheng Su"
-description              : &description "LLM researcher"
-url                      : https://yushengsu-thu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Han Shen"
+description              : &description "Ph.D. student at RPI"
+url                      : https://personal-site-test.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "yushengsu-thu.github.io"
+repository               : "personal-site-test.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -57,9 +57,9 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : thu_yushengsu
+  username               : 
 facebook:
-  username               : yushengcool
+  username               : 
   app_id                 :
   publisher              :
 og_image                 :  # Open Graph/Twitter default site image
@@ -80,42 +80,42 @@ analytics:
 
 # Site Author
 author:
-  name             : "Yusheng Su"
-  avatar           : "profile.jpg"
-  bio              : "LLM researcher, NLPer. (yushengsu.thu@gmail.com)"
+  name             : "Han Shen"
+  avatar           : "hanshen.jpg"
+  bio              : "Ph.D. student. (shenh5@rpi.edu; shenhanhs@gmail.com)"
   location         : 
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=xwy6Va4AAAAJ"
-  email            : "yushengsu.thu@gmail.com"
+  googlescholar    : "https://scholar.google.com/citations?user=UeWSr6oAAAAJ&hl=en"
+  email            : "shenh5@rpi.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : # "yushengcool"
+  facebook         : 
   foursquare       :
-  github           : "yushengsu-thu"
+  github           : 
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/yusheng-su/"
+  linkedin         : 
   orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "thu_yushengsu"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
   youtube          :
   wikipedia        :
-  Semantic Scholar : "https://www.semanticscholar.org/author/Yusheng-Su/48576745"
+  Semantic Scholar : 
   dblp             : 
 
 
